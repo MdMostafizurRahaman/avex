@@ -345,3 +345,24 @@
 - Evidence: owner-supplied Git output identifies the authenticated account but rejects repository write access. Token repository selection and Contents write permission are the primary checks; actual token settings were not inspected.
 - Guidance: verify the fine-grained token resource owner is `shazzad5709`, repository access explicitly includes `avex`, and repository Contents permission is Read and write; retry using the credential-helper bypass command. No credentials accessed, no push retried, and no research artifacts changed.
 - Unresolved: owner must correct token authorization; successful publication remains unverified. No scientific decisions required by this troubleshooting step.
+
+
+### 2026-10-05T20:14:11+06:00 — Presentation narrative and evaluation preparation
+
+- Task: prepare detailed, accessible presentation content for the central question, subquestions, scope, contribution, methodology and evaluation criteria.
+- Files created: `docs/presentation_preparation.md`. Files modified: this worklog only.
+- Sources/checks: read AGENTS.md, README, relevant SESSIONS.md boundaries, methodology, scenario card, evidence-manifest review, frozen prompt and scoring worksheet; checked the six-row draft CSV and confirmed all seven human-review fields remain blank. Rechecked DREA Sections 3.1/3.3 from https://arxiv.org/html/2607.13439v1 for careful positioning.
+- Content: frozen question preserved; presentation subquestions and expanded rubric explanations clearly proposed rather than protocol changes. Included scope, E1/E2/E3 invariants, source/evidence chain, isolation and collection architecture, condition-specific scoring, mechanical-versus-human measures, limitations, audience questions and speaker narrative.
+- Findings: six cells use one fixed model; eight process attempts include infrastructure retries. Scenario/reference approval does not settle constructed-condition validity or run scores. DREA already evaluates rationale correctness; proposed AVEX distinction concerns controlled evidence availability and trace-grounded explanation/uncertainty evaluation across outcomes.
+- Validation: documentation path/link and diff checks; no implementation change requires new code tests. No raw logs, prompts, configurations, snapshots, conditions, scores or existing figures modified; no experiment launched.
+- Researcher decisions remaining: formal subquestion/rubric adoption, contribution/novelty validation, actual condition interpretation, attempt inclusion and manual scientific scoring. No next staged research session initiated.
+
+
+### 2026-10-05T20:37:42+06:00 — Presentation progress and future-task roadmap
+
+- Task: extend presentation preparation with defensible progress, immediate evaluation/packaging tasks and proposed future extensions.
+- Created: `docs/progress_snapshot.md`. Modified: `docs/presentation_preparation.md`, this worklog.
+- Checks: inspected current artifacts and Sessions 9/10 requirements; six draft rows/eight attempt rows confirmed; selected normalized records/final-text files present; all seven human-review fields blank. Annotated trace and final audit/presentation/resource package absent. Latest recorded full test result is 34 passes, not rerun for these documentation-only edits.
+- Content: distinguished executed/normalized pilot from pending human scientific evaluation; documented condition/rubric/attempt review, scoring, annotated demonstration and audit; proposed additional scenarios, stronger second model, preplanned repetitions, evaluator reliability and quantitative analysis as separately authorized future work.
+- Validation: local documentation-link checks and `git diff --check`; no code tests needed. No source, raw logs, condition files, prompts, configurations, scores or figures changed; no model requests, new runs, trace selection or final audit performed.
+- Remaining decisions: human condition interpretation, scoring definitions/applicability, attempt inclusion and scientific scores; future model/scenario/repetition/resource and analysis choices.
