@@ -1,0 +1,2 @@
+{"type":"text","part":{"type":"text","id":"t1","messageID":"final1","text":"## Verdict: **VULNERABLE**"}}
+{"type":"step_finish","part":{"type":"step-finish","messageID":"final1","reason":"stop"}}

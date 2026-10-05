@@ -1,0 +1,19 @@
+{
+  "audience": "RESEARCHER_ONLY",
+  "builder_sha256": "abda1a7469e25204a3baec57b4fc23d5fe25ebfca3adb43ea4211c477614a3db",
+  "canvas_points": [
+    1000,
+    740
+  ],
+  "files": {
+    "pilot_architecture.pdf": "58755a220ba461d74fe4c6e265e6cb43721863b4d9d65a54d77a44288baa0533",
+    "pilot_architecture.png": "e2fcfe1aef60d02106ff4fac52fa501df7fc075ba9407c36dda30c379a000be3",
+    "pilot_architecture.svg": "991fdee59c1ed4982ce5056960a1f82d91988250da1521b5caf076e39e3c0f3d",
+    "pilot_methodology.pdf": "ec636426a6b30258f91aed3858a5509ed0ce223d6c56fd3004ba8fb9c4a2980e",
+    "pilot_methodology.png": "e980f25554176116ad9bf31e5626335e66495d445ab4ade746f81feb56459eac",
+    "pilot_methodology.svg": "6b8e7312a780a4f5ae5d8e99629966ccea85180fbf180e3fb408ef69844f797e"
+  },
+  "generated_at_utc": "2026-10-04T15:12:58.508624+00:00",
+  "preview_dpi": 216,
+  "scope": "Design and execution architecture only; no scientific scores or model conclusions"
+}

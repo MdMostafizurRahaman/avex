@@ -1,0 +1,10 @@
+tcms/core/history.py:12-33 — target diff_objects
+tcms/core/history.py:89-105 — KiwiHistoricalRecords.post_save -> diff_objects -> _change_reason
+tcms/core/history.py:6,123-124 — candidate sink: ReadOnlyHistoryAdmin.Diff -> safe(history_change_reason)
+tcms/testcases/models.py:11,50-57 — tracked model -> KiwiHistoricalRecords; summary field
+tcms/testcases/admin.py:13,64 — TestCaseAdmin -> ReadOnlyHistoryAdmin
+tcms/rpc/api/testcase.py — model update path for manual inspection
+tcms/testplans/admin.py:16; tcms/bugs/admin.py:13; tcms/testruns/admin.py:13 — alternate ReadOnlyHistoryAdmin registrations
+tcms/testruns/static/testruns/js/get.js:662-676 — alternate history consumer -> fenced Markdown -> markdown2HTML
+tcms/rpc/api/testexecution.py:174-176 — alternate history data output
+tcms/core/templatetags/extra_filters.py — bleach_input dependency location in paired source

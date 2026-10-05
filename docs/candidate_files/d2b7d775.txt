@@ -1,0 +1,6 @@
+piccolo/apps/user/tables.py:191-237 — target BaseUser.login -> select query; split_stored_password; hash_password; update_password
+piccolo/apps/user/tables.py:53-60,136-163 — candidate dependency: iteration constant -> hash_password -> hashlib.pbkdf2_hmac
+piccolo/apps/user/tables.py:175-188 — split_stored_password; login_sync -> run_sync(login)
+piccolo/apps/user/tables.py:90-130 — update_password -> hash_password; inspect as alternate hashing evidence
+tests/apps/user/test_tables.py:63-103,154-188,262-290 — login callers; hash-format and iteration evidence
+CHANGES.rst:1638 — alternate stored-password format example

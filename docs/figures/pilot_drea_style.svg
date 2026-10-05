@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1400" height="875" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1400 875" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1400" height="875"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-875)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1400" height="875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="30" y="825" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 30px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1650) scale(1,-1)">Controlled Evidence Acquisition and Explanation Grounding</text>
+			<text x="30" y="796" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(36%,35%,39%); stroke:none;" transform="translate(0,1592) scale(1,-1)">RepoPairBench pilot: one scenario x three evidence conditions x two harnesses</text>
+			<rect x="30" y="159" width="290" height="606" rx="34" ry="34" style="stroke: rgb(70%,75%,68%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(93%,95%,92%); fill-rule: evenodd;"/>
+			<rect x="51" y="692" width="42" height="34" rx="4" ry="4" style="stroke: rgb(73%,64%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(87%,76%,54%); fill-rule: evenodd;"/>
+			<rect x="53" y="721" width="20" height="10" rx="3" ry="3" style="stroke: rgb(73%,64%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(87%,76%,54%); fill-rule: evenodd;"/>
+			<circle cx="59" cy="716" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,38%,27%); fill-rule: evenodd;"/>
+			<circle cx="72" cy="708" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,38%,27%); fill-rule: evenodd;"/>
+			<circle cx="83" cy="718" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,38%,27%); fill-rule: evenodd;"/>
+			<path d="M 59,716 L 72,708 Z" style="stroke: rgb(47%,38%,27%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 72,708 L 83,718 Z" style="stroke: rgb(47%,38%,27%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="116" y="710" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 28px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1420) scale(1,-1)">Controlled</text>
+			<text x="116" y="679" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 25px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1358) scale(1,-1)">Source Evidence</text>
+			<rect x="50" y="549" width="250" height="94" rx="16" ry="16" style="stroke: rgb(70%,75%,68%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="65" y="573" width="42" height="48" rx="3" ry="3" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,99%,97%); fill-rule: evenodd;"/>
+			<text x="73.54296875" y="588" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 24px;fill: rgb(31%,41%,51%); stroke:none;" transform="translate(0,1176) scale(1,-1)">{ }</text>
+			<path d="M 73,584 L 99,584 Z" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<path d="M 73,579 L 91,579 Z" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<text x="119" y="609" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 20px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1218) scale(1,-1)">Unchanged target</text>
+			<text x="119" y="581" style="font-family: 'Times New Roman', Times, serif; font-size: 19px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1162) scale(1,-1)">Log.GET</text>
+			<text x="66" y="561" style="font-family: 'Times New Roman', Times, serif; font-size: 14px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1122) scale(1,-1)">controllers/panel/log.py</text>
+			<text x="81.18310546875" y="507" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 22px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1014) scale(1,-1)">Evidence conditions</text>
+			<rect x="50" y="424" width="250" height="68" rx="15" ry="15" style="stroke: rgb(70%,75%,68%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(86%,90%,83%); fill-rule: evenodd;"/>
+			<text x="87.7685546875" y="463" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 20px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,926) scale(1,-1)">E1: context supplied</text>
+			<text x="83.157958984375" y="438" style="font-family: 'Times New Roman', Times, serif; font-size: 15px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,876) scale(1,-1)">Sufficient initial source packet</text>
+			<rect x="50" y="340" width="250" height="68" rx="15" ry="15" style="stroke: rgb(70%,75%,68%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(86%,90%,83%); fill-rule: evenodd;"/>
+			<text x="77.2607421875" y="379" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 20px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,758) scale(1,-1)">E2: context retrievable</text>
+			<text x="70.81298828125" y="354" style="font-family: 'Times New Roman', Times, serif; font-size: 15px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,708) scale(1,-1)">Limited packet + available context</text>
+			<rect x="50" y="256" width="250" height="68" rx="15" ry="15" style="stroke: rgb(70%,75%,68%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(86%,90%,83%); fill-rule: evenodd;"/>
+			<text x="74.443359375" y="295" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 20px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,590) scale(1,-1)">E3: context unavailable</text>
+			<text x="68.780517578125" y="270" style="font-family: 'Times New Roman', Times, serif; font-size: 15px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,540) scale(1,-1)">Same packet; output context absent</text>
+			<text x="74.67675781249999" y="212" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,424) scale(1,-1)">Same frozen task instructions</text>
+			<text x="87.422607421875" y="184" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,368) scale(1,-1)">Allowed source files only</text>
+			<rect x="365" y="159" width="650" height="606" rx="38" ry="38" style="stroke: rgb(65%,66%,69%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,98%); fill-rule: evenodd; stroke-dasharray: 7, 5;"/>
+			<text x="592.08984375" y="717" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 30px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1434) scale(1,-1)">Agent Runtime</text>
+			<text x="522.779296875" y="690" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1380) scale(1,-1)">Qwen Code OR OpenCode - one fresh session</text>
+			<rect x="402" y="608" width="576" height="64" rx="16" ry="16" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(87%,89%,95%); fill-rule: evenodd;"/>
+			<text x="526.95263671875" y="642" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 21px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1284) scale(1,-1)">Shared model: qwen3.5:9b-q4_K_M</text>
+			<text x="543.8125" y="619" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1238) scale(1,-1)">Ollama endpoint / configured context: 16,384</text>
+			<rect x="402" y="385" width="310" height="193" rx="30" ry="30" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(87%,89%,95%); fill-rule: evenodd;"/>
+			<text x="441.343017578125" y="541" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 23px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1082) scale(1,-1)">Assessment &amp; Stopping</text>
+			<rect x="417" y="486" width="280" height="33" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="443.3046875" y="494.5" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,989) scale(1,-1)">Reason over available evidence</text>
+			<rect x="417" y="443" width="280" height="33" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="449.78662109375" y="451.5" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,903) scale(1,-1)">Request context when needed</text>
+			<rect x="417" y="400" width="280" height="33" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="451.28515625" y="408.5" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,817) scale(1,-1)">Conclude or state uncertainty</text>
+			<rect x="402" y="209" width="310" height="127" rx="27" ry="27" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(87%,89%,95%); fill-rule: evenodd;"/>
+			<text x="446.79541015625" y="301" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 23px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,602) scale(1,-1)">Repository Navigation</text>
+			<rect x="417" y="255" width="280" height="28" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="499.7568359375" y="261.0" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,522) scale(1,-1)">Read-only tools</text>
+			<rect x="417" y="220" width="280" height="26" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="479.093017578125" y="225.5" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,451) scale(1,-1)">Read / glob / grep / list</text>
+			<rect x="766" y="209" width="230" height="186" rx="28" ry="28" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(87%,89%,95%); fill-rule: evenodd;"/>
+			<text x="786.770751953125" y="359" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 23px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,718) scale(1,-1)">Returned Evidence</text>
+			<rect x="780" y="309" width="202" height="30" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="823.7744140625" y="316.0" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,632) scale(1,-1)">Source excerpts</text>
+			<rect x="780" y="268" width="202" height="30" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="824.7763671875" y="275.0" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,550) scale(1,-1)">Search matches</text>
+			<rect x="780" y="227" width="202" height="30" rx="7" ry="7" style="stroke: rgb(98%,98%,99%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="811.36474609375" y="234.5" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,469) scale(1,-1)">Errors / absent paths</text>
+			<polyline points="320 482, 385 482" style="stroke: rgb(56%,68%,47%); stroke-linecap: butt; stroke-width: 12; fill: None; fill-rule: evenodd;"/>
+			<polyline points="320 482, 385 482" style="stroke: rgb(85%,90%,80%); stroke-linecap: butt; stroke-width: 10; fill: None; fill-rule: evenodd;"/>
+			<polygon points="402 482, 385 472, 385 492" style="stroke: rgb(56%,68%,47%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(85%,90%,80%); fill-rule: evenodd;"/>
+			<polyline points="557 385, 557 353" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 12; fill: None; fill-rule: evenodd;"/>
+			<polyline points="557 385, 557 353" style="stroke: rgb(83%,90%,98%); stroke-linecap: butt; stroke-width: 10; fill: None; fill-rule: evenodd;"/>
+			<polygon points="557 336, 547 353, 567 353" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(83%,90%,98%); fill-rule: evenodd;"/>
+			<polyline points="712 249, 749 249" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 12; fill: None; fill-rule: evenodd;"/>
+			<polyline points="712 249, 749 249" style="stroke: rgb(83%,90%,98%); stroke-linecap: butt; stroke-width: 10; fill: None; fill-rule: evenodd;"/>
+			<polygon points="766 249, 749 239, 749 259" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(83%,90%,98%); fill-rule: evenodd;"/>
+			<polyline points="881 395, 881 452, 729 452" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 12; fill: None; fill-rule: evenodd;"/>
+			<polyline points="881 395, 881 452, 729 452" style="stroke: rgb(83%,90%,98%); stroke-linecap: butt; stroke-width: 10; fill: None; fill-rule: evenodd;"/>
+			<polygon points="712 452, 729 462, 729 442" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(83%,90%,98%); fill-rule: evenodd;"/>
+			<text x="784" y="411" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,822) scale(1,-1)">Tool results</text>
+			<text x="529.1953125" y="172" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,344) scale(1,-1)">Read-only workspace; no private-reference access</text>
+			<rect x="1060" y="516" width="310" height="249" rx="32" ry="32" style="stroke: rgb(73%,64%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(94%,90%,83%); fill-rule: evenodd;"/>
+			<text x="1111.94140625" y="715" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 28px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1430) scale(1,-1)">Final Assessment</text>
+			<rect x="1077" y="618" width="126" height="67" rx="12" ry="12" style="stroke: rgb(73%,64%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,98%,95%); fill-rule: evenodd;"/>
+			<rect x="1227" y="618" width="126" height="67" rx="12" ry="12" style="stroke: rgb(73%,64%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,98%,95%); fill-rule: evenodd;"/>
+			<text x="1105.516845703125" y="643" style="font-family: 'Times New Roman', Times, serif; font-size: 23px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1286) scale(1,-1)">Verdict</text>
+			<text x="1208.232421875" y="642" style="font-family: 'Times New Roman', Times, serif; font-size: 24px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1284) scale(1,-1)">+</text>
+			<text x="1245.931640625" y="643" style="font-family: 'Times New Roman', Times, serif; font-size: 23px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1286) scale(1,-1)">Rationale</text>
+			<text x="1101.6279296875" y="582" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1164) scale(1,-1)">Evidence used + unresolved gaps</text>
+			<text x="1121.25390625" y="549" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1098) scale(1,-1)">Vulnerable / Not vulnerable /</text>
+			<text x="1147.69921875" y="527" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1054) scale(1,-1)">Insufficient evidence</text>
+			<polyline points="712 546, 1041.3 546" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 13; fill: None; fill-rule: evenodd;"/>
+			<polyline points="712 546, 1041.3 546" style="stroke: rgb(96%,92%,84%); stroke-linecap: butt; stroke-width: 11; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1060 546, 1041.3 535, 1041.3 557" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(96%,92%,84%); fill-rule: evenodd;"/>
+			<text x="824.959716796875" y="556" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,1112) scale(1,-1)">Model output</text>
+			<rect x="1060" y="159" width="310" height="296" rx="34" ry="34" style="stroke: rgb(68%,60%,73%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(91%,87%,94%); fill-rule: evenodd;"/>
+			<text x="1113.236083984375" y="413" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 25px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,826) scale(1,-1)">Human Evaluation</text>
+			<text x="1117.73974609375" y="382" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,764) scale(1,-1)">All six cells; manual scoring</text>
+			<rect x="1078" y="243" width="274" height="121" rx="14" ry="14" style="stroke: rgb(68%,60%,73%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(97%,95%,98%); fill-rule: evenodd;"/>
+			<text x="1108.283203125" y="335" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,670) scale(1,-1)">Recognition of evidence gaps</text>
+			<text x="1139.7744140625" y="309" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,618) scale(1,-1)">Evidence acquisition</text>
+			<text x="1132.27294921875" y="283" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,566) scale(1,-1)">Appropriate abstention</text>
+			<text x="1132.26416015625" y="257" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,514) scale(1,-1)">Explanation grounding</text>
+			<text x="1097.6328125" y="210" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,420) scale(1,-1)">Unsupported claims + trace citations</text>
+			<text x="1114.59375" y="177" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,354) scale(1,-1)">Trace-grounded human scoring</text>
+			<polyline points="1215 516, 1215 475.4" style="stroke: rgb(68%,60%,73%); stroke-linecap: butt; stroke-width: 14; fill: None; fill-rule: evenodd;"/>
+			<polyline points="1215 516, 1215 475.4" style="stroke: rgb(95%,89%,83%); stroke-linecap: butt; stroke-width: 12; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1215 455, 1203 475.4, 1227 475.4" style="stroke: rgb(68%,60%,73%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(95%,89%,83%); fill-rule: evenodd;"/>
+			<rect x="365" y="113" width="650" height="29" rx="6" ry="6" style="stroke: rgb(65%,69%,78%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(95%,96%,98%); fill-rule: evenodd;"/>
+			<text x="483.115478515625" y="121" style="font-family: 'Times New Roman', Times, serif; font-size: 17px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,242) scale(1,-1)">Raw traces + final text -&gt; separate mechanical normalization</text>
+			<polyline points="1015 128, 1041 128, 1041 227, 1051.5 227" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 7; fill: None; fill-rule: evenodd;"/>
+			<polyline points="1015 128, 1041 128, 1041 227, 1051.5 227" style="stroke: rgb(83%,90%,98%); stroke-linecap: butt; stroke-width: 5; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1060 227, 1051.5 222, 1051.5 232" style="stroke: rgb(47%,60%,78%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(83%,90%,98%); fill-rule: evenodd;"/>
+			<rect x="30" y="36" width="930" height="62" rx="17" ry="17" style="stroke: rgb(70%,75%,68%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(93%,95%,92%); fill-rule: evenodd;"/>
+			<text x="50" y="68" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 22px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,136) scale(1,-1)">Private Evaluation Reference</text>
+			<text x="50" y="45" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,90) scale(1,-1)">Paired source, scoped label, patch and scoring rationale - never given to agents</text>
+			<polyline points="960 67, 1215 67, 1215 140.3" style="stroke: rgb(56%,68%,47%); stroke-linecap: butt; stroke-width: 13; fill: None; fill-rule: evenodd;"/>
+			<polyline points="960 67, 1215 67, 1215 140.3" style="stroke: rgb(85%,90%,80%); stroke-linecap: butt; stroke-width: 11; fill: None; fill-rule: evenodd;"/>
+			<polygon points="1215 159, 1226 140.3, 1204 140.3" style="stroke: rgb(56%,68%,47%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(85%,90%,80%); fill-rule: evenodd;"/>
+			<text x="985" y="80" style="font-family: 'Times New Roman', Times, serif; font-size: 16px;fill: rgb(13%,13%,16%); stroke:none;" transform="translate(0,160) scale(1,-1)">Reference for scoring</text>
+			<text x="30" y="11" style="font-family: 'Times New Roman', Times, serif; font-size: 13px;fill: rgb(36%,35%,39%); stroke:none;" transform="translate(0,22) scale(1,-1)">Conceptual workflow; navigation is optional in E1. Appearance adapted from DREA Fig. 2; no scientific scores are shown.</text>
+		</g>
+	</g>
+</svg>

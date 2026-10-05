@@ -1,0 +1,9 @@
+src/octoprint/plugins/pluginmanager/__init__.py:224-253 — target get_additional_permissions
+src/octoprint/plugins/pluginmanager/__init__.py:2131-2132 — permission hook -> get_additional_permissions
+src/octoprint/server/__init__.py:2563-2620 — candidate dependency: _setup_plugin_permissions -> permission_role -> PluginOctoPrintPermission
+src/octoprint/access/permissions.py:24-44,78-93 — candidate dependency: strings -> RoleNeed; allows(identity)
+src/octoprint/access/groups.py:25-32,704-718 — default permissions -> group needs -> has_permission
+src/octoprint/access/users.py:1277-1294 — user permission/group needs -> has_permission
+src/octoprint/plugins/pluginmanager/__init__.py:638-706 — candidate consumer: on_api_command -> MANAGE.can -> uninstall/other commands
+src/octoprint/plugins/pluginmanager/__init__.py:438,473,519,531,574 — alternate MANAGE-protected consumers
+src/octoprint/vendor/flask_principal.py — underlying permission implementation for alternate-evidence inspection

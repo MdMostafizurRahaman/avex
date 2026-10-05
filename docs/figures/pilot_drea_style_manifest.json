@@ -1,0 +1,17 @@
+{
+  "adaptation": "Visual organization only; single-model pilot and private researcher boundary retained",
+  "audience": "RESEARCHER_ONLY",
+  "builder_sha256": "d5093a944f1e13b8663ea9730a0a5fa834077e86f9ca6dd54f8f955da8476aab",
+  "canvas_points": [
+    1400,
+    875
+  ],
+  "files": {
+    "pilot_drea_style.pdf": "7b99055fdaba18722f29a9b483ba92952cad3c7500d46d99bd1190c3603cc356",
+    "pilot_drea_style.png": "f4eaf5b412f10001246249e592c9575e2e148580a545c3b4f02e9642b6a5e4fe",
+    "pilot_drea_style.svg": "8848ea9a5584d39865074d3a3409286fc6e1113b898e87c84d3eb3ebee90dd83"
+  },
+  "generated_at_utc": "2026-10-04T15:39:47.419548+00:00",
+  "preview_dpi": 216,
+  "reference_figure": "https://github.com/huhusmang/DREA/blob/main/figures/fig2_DREA.png"
+}

@@ -1,0 +1,212 @@
+{
+  "scenario_id": "24e78349",
+  "repository": "https://github.com/iredmail/iRedAdmin",
+  "target_file": "controllers/panel/log.py",
+  "target_function": "Log.GET",
+  "vulnerable_snapshot": {
+    "commit": "6776a07190ecf735f40bdf759ae7f5b3b3cde6ac",
+    "path": "private/original_snapshots/session2/24e78349/6776a07190ecf735f40bdf759ae7f5b3b3cde6ac",
+    "archive_sha256": "7b8dabe96ac5b8933160b811d42031c82a60accc41c3ea64f0c975b8aa8177cd"
+  },
+  "fixed_snapshot": {
+    "commit": "3c72b438d412ea3ee0270f6956e19b1098c19191",
+    "path": "private/original_snapshots/session2/24e78349/3c72b438d412ea3ee0270f6956e19b1098c19191",
+    "archive_sha256": "56a319ac4bdb55f88ae4de874784a5d72938d21df54367923c2bd9c6688e9aad"
+  },
+  "validated_label": "VULNERABLE",
+  "vulnerability_class": "Reflected XSS (CWE-79)",
+  "decisive_evidence_description": "Whether forwarded query values are escaped at the actual panel/log.html hidden-input sink, linked to the custom web.render binding and environment; supported by safestr conversion, DB-filter-only validation, default skin and template ancestry",
+  "decisive_evidence_paths": [
+    "controllers/panel/log.py",
+    "web/utils.py",
+    "libs/panel/log.py",
+    "libs/iredbase.py",
+    "libs/default_settings.py",
+    "templates/default/panel/log.html",
+    "templates/default/layout.html"
+  ],
+  "alternative_evidence_paths": [
+    "templates/default/macros/general.html",
+    "templates/default/macros/msg_handlers.html",
+    "web/contrib/template.py",
+    "web/__init__.py",
+    "controllers/panel/urls.py",
+    "iredadmin.py",
+    "libs/panel/__init__.py",
+    "web/session.py",
+    "web/webapi.py",
+    "ChangeLog",
+    "settings.py.ldap.sample",
+    "settings.py.mysql.sample",
+    "settings.py.pgsql.sample"
+  ],
+  "notes": {
+    "audience": "RESEARCHER_ONLY - must never be copied into agent-visible workspaces",
+    "template_status": "RESEARCHER_APPROVED - scoped scenario card and exact evidence construction plan; actual constructed-workspace validity remains pending",
+    "created_at_utc": "2026-10-03T10:39:06.565785+00:00",
+    "project_name": "iRedAdmin",
+    "dataset_metadata": {
+      "cve_ids": [
+        "CVE-2024-47227"
+      ],
+      "cwe_ids": [
+        "CWE-79"
+      ],
+      "source": "Local RepoPairBench record; metadata is not independently finalized scientific ground truth"
+    },
+    "prior_researcher_approval": {
+      "date_local": "2026-10-03",
+      "timezone": "Asia/Dhaka",
+      "selected_scenario": "24e78349",
+      "accepted_scope": "Source-grounded reflected-XSS assessment under normal Jinja defaults, explicit global-admin requirement, untested browser/deployment exploitability; whole-file E3 omission proposal subject to actual workspace audit"
+    },
+    "proposed_label": {
+      "value": "VULNERABLE",
+      "status": "RESEARCHER_APPROVED for stated source-level scope",
+      "scope": "Selected vulnerable GET filter-to-HTML-attribute path under stated assumptions; not whole application or deployed exploit"
+    },
+    "proposed_vulnerability_class": {
+      "value": "Reflected HTML attribute injection / reflected XSS",
+      "cwe": "CWE-79",
+      "status": "RESEARCHER_APPROVED for stated source-level scope"
+    },
+    "proposed_decisive_evidence": {
+      "description": "Whether forwarded query values are escaped at the actual panel/log.html hidden-input sink, linked to the custom web.render binding and environment; supported by safestr conversion, DB-filter-only validation, default skin and template ancestry",
+      "status": "RESEARCHER_APPROVED for stated source-level scope",
+      "confidence": "High in source presence/data flow; moderate in scientific decisiveness and controlled-evidence design"
+    },
+    "path_list_status": "Researcher-approved evidence locations supporting the scoped conclusion; these are not final condition inclusion/exclusion lists",
+    "target_locations": {
+      "vulnerable": {
+        "function_start": 19,
+        "function_end": 87,
+        "decorator_line": 18
+      },
+      "fixed": {
+        "function_start": 20,
+        "function_end": 98,
+        "decorator_line": 19
+      }
+    },
+    "critical_locations": [
+      {
+        "path": "templates/default/panel/log.html",
+        "lines": [
+          69,
+          71
+        ],
+        "role": "Candidate hidden-input sink"
+      },
+      {
+        "path": "libs/iredbase.py",
+        "lines": [
+          125,
+          135
+        ],
+        "role": "Renderer construction"
+      },
+      {
+        "path": "libs/iredbase.py",
+        "lines": [
+          193,
+          193
+        ],
+        "role": "web.render binding"
+      },
+      {
+        "path": "web/utils.py",
+        "lines": [
+          360,
+          377
+        ],
+        "role": "safestr definition/export name"
+      },
+      {
+        "path": "libs/panel/log.py",
+        "lines": [
+          17,
+          78
+        ],
+        "role": "Filter validation does not sanitize caller render variables"
+      },
+      {
+        "path": "templates/default/macros/general.html",
+        "lines": [
+          997,
+          1005
+        ],
+        "role": "Alternative pagination output escapes baseurl/sep"
+      },
+      {
+        "path": "libs/iredbase.py",
+        "lines": [
+          34,
+          34
+        ],
+        "role": "SameSite=Strict session setting"
+      }
+    ],
+    "proposed_E3_removal": {
+      "paths": [
+        "templates/",
+        "libs/iredbase.py"
+      ],
+      "status": "RESEARCHER_APPROVED exact file allowlist in config/evidence_manifest.json; actual E3 validity remains subject to post-construction audit",
+      "target_must_remain_unchanged": true
+    },
+    "threat_model": {
+      "status": "RESEARCHER_APPROVED for already-authorized-request source-level assessment; delivery mechanism remains untested",
+      "request": "Already authorized global-administrator normal GET response",
+      "assumptions": [
+        "Default template skin",
+        "Normal Jinja defaults",
+        "Successful backend calls"
+      ],
+      "delivery_constraint": "SameSite=Strict is configured; ordinary cross-site authenticated delivery is not established",
+      "neutral_context_control": "RESEARCHER_APPROVED - identical exact libs/iredbase.py:34 source excerpt in all initial packets; parent renderer file absent from E3"
+    },
+    "external_dependency_limit": "Jinja2>=2.2.0 is unpinned. No Jinja render, browser exploit or historical runtime reproduction established.",
+    "mechanical_pair_comparison": {
+      "added_paths": [],
+      "removed_paths": [],
+      "changed_paths": [
+        "controllers/panel/log.py",
+        "templates/default/panel/log.html"
+      ]
+    },
+    "prior_probe": "private/ground_truth/24e78349_validation/data_flow_result.json - source function units with explicit fixtures, render-argument capture only; input hashes verified in Session 3, not rerun",
+    "researcher_artifacts": {
+      "dossier": "docs/scenario_validation.md",
+      "pair_audit": "private/ground_truth/24e78349_validation/session3_pair_audit.json",
+      "diff": "private/ground_truth/24e78349_validation/session3_security_change.diff",
+      "preserved_prior_packet": "private/ground_truth/24e78349_validation/session2_approved_decision_packet.md"
+    },
+    "remaining_decisions": [
+      "RESEARCHER_TODO - validate actual constructed E1 sufficiency, E2 initial insufficiency/retrievability and E3 unavailable-evidence boundary",
+      "RESEARCHER_TODO - review post-construction token budget, isolation and leakage checks before experiments"
+    ],
+    "conditions_built": false,
+    "experimental_runs_performed": false,
+    "researcher_approval": {
+      "recorded_at": "2026-10-03T16:48:34+06:00",
+      "timezone": "Asia/Dhaka",
+      "authorization": "Direct researcher response: Yeah approve all",
+      "approved_decisions": [
+        "VULNERABLE / reflected XSS / CWE-79 for the selected source-level GET output path under normal Jinja defaults",
+        "Actual sink escaping policy as decisive evidence, linked template and renderer with supporting data-flow facts",
+        "Already authorized global-administrator request, successful backends; SameSite=Strict limits unproven delivery",
+        "E2 retrievable evidence and E3 whole-file omission proposal, subject to actual constructed-workspace audit"
+      ],
+      "runtime_exploit_validated": false,
+      "constructed_conditions_validated": false
+    },
+    "evidence_manifest_approval": {
+      "recorded_at": "2026-10-03T18:27:13+06:00",
+      "authorization": "Direct researcher response: Alright approve, then; following recommendation to approve the documented design for the source-level pilot",
+      "manifest": "config/evidence_manifest.json",
+      "review_document": "docs/evidence_manifest_review.md",
+      "status": "RESEARCHER_APPROVED_CONSTRUCTION_PLAN",
+      "constructed_conditions_validated": false
+    }
+  }
+}

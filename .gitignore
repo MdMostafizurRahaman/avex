@@ -1,0 +1,69 @@
+# Researcher-only reference material and original repository snapshots.
+/private/
+
+# Downloaded upstream benchmark data; obtain from the upstream project separately.
+/data/repopairbench/
+
+# Generated experimental workspaces, raw attempts and normalized log copies.
+# Ignoring these preserves local files; it does not delete or anonymize them.
+/pilot/conditions/
+/logs/
+
+# Draft results and human scoring exports. Keep results/manifests/ versioned.
+/results/*.csv
+/results/*.tsv
+/results/*.xlsx
+
+# Local credentials and environment overrides; sanitized examples may be tracked.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+auth.json
+
+# Local agent, inference, editor and cache state.
+.codex/
+.qwen/
+.opencode/
+.ollama/
+.cache/
+.idea/
+.vscode/
+
+# Python environments, bytecode, test caches and packaging outputs.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+/build/
+/dist/
+
+# Local dependency trees and model weights.
+node_modules/
+*.gguf
+*.safetensors
+
+# macOS metadata and editor temporary files.
+.DS_Store
+._*
+.AppleDouble/
+*.swp
+*.swo
+*~
+
+# Intentionally tracked: scripts, tests (including log fixtures), frozen prompts,
+# researcher configuration/manifests, documentation and figure exports.
+# This GitHub project is researcher-facing, never an experimental-agent workspace.

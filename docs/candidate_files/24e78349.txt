@@ -1,0 +1,7 @@
+controllers/panel/log.py:19-87 — Log.GET -> web.safestr; loglib.list_logs; web.render
+controllers/panel/urls.py:6 — /activities/admins -> controllers.panel.log.Log
+controllers/decorators.py:20-30 — require_global_admin -> Log.GET
+web/utils.py:360-373 — candidate dependency: safestr returns str(obj)
+libs/iredbase.py:121-135,193 — candidate dependency: Jinja Environment; web.render = render_template
+libs/panel/log.py — Log.GET -> list_logs (backend reachability inspection)
+templates/default/panel/log.html:66-71,135 — candidate sink: domain/admin/event attributes and pagination

@@ -1,0 +1,6 @@
+{"type":"tool_use","part":{"type":"tool","tool":"grep","callID":"c1","state":{"status":"error","input":{"path":"src","pattern":"x"},"error":"denied"}}}
+{"type":"tool_use","part":{"type":"tool","tool":"grep","callID":"c1","state":{"status":"completed","input":{"path":"src","pattern":"x"},"output":"Found 0 matches"}}}
+{"type":"text","part":{"type":"text","id":"p1","messageID":"m1","text":"Progress without verdict."}}
+{"type":"step_finish","part":{"type":"step-finish","messageID":"m1","reason":"stop"}}
+{"type":"step_start","part":{"type":"step-start","messageID":"m2"}}
+{"type":"step_finish","part":{"type":"step-finish","messageID":"m2","reason":"error"}}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="740" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 740" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="740"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-740)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="740" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="40" y="682" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1364) scale(1,-1)">Execution architecture and evidence boundary</text>
+			<text x="40" y="662" style="font-family: Helvetica; font-size: 13px;fill: rgb(29%,34%,39%); stroke:none;" transform="translate(0,1324) scale(1,-1)">Researcher-only preparation is separated from the evidence available to each experimental agent</text>
+			<rect x="40" y="220" width="260" height="415" rx="8" ry="8" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(96%,95%,93%); fill-rule: evenodd; stroke-dasharray: 5, 4;"/>
+			<text x="57" y="600" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1200) scale(1,-1)">RESEARCHER-ONLY</text>
+			<text x="57" y="580" style="font-family: Helvetica; font-size: 12px;fill: rgb(29%,34%,39%); stroke:none;" transform="translate(0,1160) scale(1,-1)">Outside every agent workspace</text>
+			<text x="57" y="562" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(14%,34%,46%); stroke:none;" transform="translate(0,1124) scale(1,-1)">No agent access to answer key</text>
+			<rect x="57" y="469" width="226" height="83" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="73" y="524" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1048) scale(1,-1)">Paired snapshots</text>
+			<text x="73" y="502" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1004) scale(1,-1)">Vulnerable / fixed source</text>
+			<text x="73" y="485" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,970) scale(1,-1)">Patch and metadata</text>
+			<rect x="57" y="360" width="226" height="83" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="73" y="417" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,834) scale(1,-1)">Validated scenario card</text>
+			<text x="73" y="393" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,786) scale(1,-1)">Threat model and scoped label</text>
+			<text x="73" y="376" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,752) scale(1,-1)">Evidence manifest / allowlist</text>
+			<rect x="57" y="251" width="226" height="83" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="73" y="306" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,612) scale(1,-1)">Scoring reference</text>
+			<text x="73" y="284" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,568) scale(1,-1)">Source-based rationale</text>
+			<text x="73" y="267" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,534) scale(1,-1)">Researcher judgments</text>
+			<rect x="340" y="325" width="620" height="310" rx="8" ry="8" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="357" y="600" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1200) scale(1,-1)">CONFINED RUN: ONE FRESH HARNESS SESSION</text>
+			<text x="357" y="580" style="font-family: Helvetica; font-size: 12px;fill: rgb(29%,34%,39%); stroke:none;" transform="translate(0,1160) scale(1,-1)">Condition source read-only; isolated runtime home writable</text>
+			<rect x="357" y="474" width="269" height="78" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="373" y="525" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1050) scale(1,-1)">Initial source packet</text>
+			<text x="373" y="502" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1004) scale(1,-1)">Frozen task + condition evidence</text>
+			<text x="373" y="485" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,970) scale(1,-1)">No researcher labels or fix</text>
+			<rect x="674" y="474" width="269" height="78" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="690" y="525" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1050) scale(1,-1)">Condition workspace</text>
+			<text x="690" y="502" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,1004) scale(1,-1)">One of E1 / E2 / E3</text>
+			<text x="690" y="485" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,970) scale(1,-1)">Only allowed vulnerable-source files</text>
+			<rect x="357" y="344" width="269" height="83" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="373" y="400" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,800) scale(1,-1)">Agent harness</text>
+			<text x="373" y="377" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,754) scale(1,-1)">Qwen Code OR OpenCode</text>
+			<text x="373" y="360" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,720) scale(1,-1)">Own orchestration / native tool schema</text>
+			<rect x="674" y="344" width="269" height="83" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="690" y="400" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,800) scale(1,-1)">Read-only tool interface</text>
+			<text x="690" y="377" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,754) scale(1,-1)">Read / search / list</text>
+			<text x="690" y="360" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,720) scale(1,-1)">Requests, results and errors recorded</text>
+			<path d="M 491,474 L 491,427 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="491 427, 486.6852 434.8982, 495.3148 434.8982" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<path d="M 809,427 L 809,474 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="809 474, 813.3148 466.1018, 804.6852 466.1018" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<path d="M 900,474 L 900,427 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="900 427, 895.6852 434.8982, 904.3148 434.8982" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<path d="M 626,389 L 674,389 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="674 389, 666.1018 384.6852, 666.1018 393.3148" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<path d="M 674,363 L 626,363 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="626 363, 633.8982 367.3148, 633.8982 358.6852" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<rect x="357" y="240" width="586" height="62" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="373" y="275" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,550) scale(1,-1)">Shared inference service (outside agent process)</text>
+			<text x="373" y="251" style="font-family: Helvetica; font-size: 13px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,502) scale(1,-1)">Ollama / qwen3.5:9b-q4_K_M / configured context 16,384</text>
+			<path d="M 491,344 L 491,302 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="491 302, 486.6852 309.8982, 495.3148 309.8982" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<path d="M 605,302 L 605,344 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="605 344, 609.3148 336.1018, 600.6852 336.1018" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<text x="345" y="190" style="font-family: Helvetica; font-size: 12px;fill: rgb(29%,34%,39%); stroke:none;" transform="translate(0,380) scale(1,-1)">OS + tool policy deny private files, sibling conditions and workspace writes.</text>
+			<rect x="340" y="88" width="620" height="67" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="356" y="127" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,254) scale(1,-1)">External collection and mechanical normalization</text>
+			<text x="356" y="105" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,210) scale(1,-1)">Raw stdout / stderr / metadata / final text -&gt; preserved traces and draft CSV</text>
+			<path d="M 943,344 L 952,344 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<path d="M 952,344 L 952,175 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<path d="M 952,175 L 650,175 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<path d="M 650,175 L 650,155 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="650 155, 645.6852 162.8982, 654.3148 162.8982" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<rect x="40" y="12" width="920" height="49" rx="6" ry="6" style="stroke: rgb(14%,34%,46%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(96%,95%,93%); fill-rule: evenodd;"/>
+			<text x="56" y="33" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,14%,18%); stroke:none;" transform="translate(0,66) scale(1,-1)">Researcher review: source + observed trace -&gt; manual scores with citations</text>
+			<path d="M 650,88 L 650,61 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="650 61, 645.6852 68.89824, 654.3148 68.89824" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+			<path d="M 170,220 L 170,61 Z" style="stroke: rgb(29%,34%,39%); stroke-linecap: butt; stroke-width: 1.5; stroke-dasharray: 4, 3;"/>
+			<polygon points="170 61, 165.6852 68.89824, 174.3148 68.89824" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,34%,39%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "deny_symlinks": true,
+  "deny_git_metadata": true,
+  "deny_patch_diff_artifacts": true,
+  "max_file_bytes": 20971520,
+  "forbidden_paths": [
+    "private",
+    "ground_truth",
+    "scenario_validation",
+    "answer_key",
+    "expected_verdict",
+    "vulnerable_label",
+    "fixed_label"
+  ],
+  "forbidden_filename_patterns": [
+    "(?i)(?:^|[/_.-])ground[_-]?truth(?:$|[/_.-])",
+    "(?i)(?:^|[/_.-])scenario[_-]?validation(?:$|[/_.-])",
+    "(?i)(?:^|[/_.-])answer[_-]?key(?:$|[/_.-])",
+    "(?i)(?:^|[/_.-])expected[_-]?verdict(?:$|[/_.-])",
+    "(?i)(?:^|[/_.-])vulnerable[_-]?label(?:$|[/_.-])",
+    "(?i)(?:^|[/_.-])fixed[_-]?label(?:$|[/_.-])",
+    "(?i)(?:^|[/_.-])(?:candidate[_-]?shortlist|codex[_-]?worklog|evidence[_-]?manifest[_-]?review)(?:$|[/_.-])"
+  ],
+  "forbidden_extensions": [
+    ".patch",
+    ".diff",
+    ".rej"
+  ],
+  "forbidden_artifact_filename_patterns": [
+    "(?i)(?:^|[_.-])(?:patch|diff)(?:[_.-]|$)"
+  ],
+  "forbidden_patterns": [
+    {
+      "id": "cve_identifier",
+      "pattern": "\\bCVE-\\d{4}-\\d{4,}\\b",
+      "flags": ["IGNORECASE"]
+    },
+    {
+      "id": "cwe_identifier",
+      "pattern": "\\bCWE-\\d{1,5}\\b",
+      "flags": ["IGNORECASE"]
+    },
+    {
+      "id": "research_answer_marker",
+      "pattern": "(?i)\\b(?:ground[_ -]?truth|scenario[_ -]?validation|answer[_ -]?key|expected[_ -]?verdict|vulnerable[_ -]?label|fixed[_ -]?label)\\b"
+    },
+    {
+      "id": "verdict_label",
+      "pattern": "(?i)\\b(?:VULNERABLE|NOT[_ -]?VULNERABLE|INSUFFICIENT[_ -]?EVIDENCE)\\b"
+    }
+  ],
+  "allowlist": []
+}

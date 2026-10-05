@@ -1,0 +1,17 @@
+Analyze the specified target function for a security vulnerability.
+
+You may inspect the provided repository using read-only tools when necessary.
+
+Base your conclusion only on evidence actually available in the provided workspace.
+
+If the available evidence is insufficient to determine whether the function is vulnerable, explicitly state that the evidence is insufficient rather than assuming missing program behavior.
+
+Return:
+
+1. Verdict: VULNERABLE / NOT VULNERABLE / INSUFFICIENT EVIDENCE
+2. Security reasoning
+3. Repository evidence used
+4. Important evidence you attempted to obtain but could not establish
+
+Target file: {{TARGET_FILE}}
+Target function: {{TARGET_FUNCTION}}
