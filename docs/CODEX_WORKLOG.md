@@ -327,3 +327,12 @@
 - Findings: `main` initially had no commits, and the remote advertised no refs. Created initial commit `ce467fb`. The tracked inventory contained 65 files totaling 2,072,905 bytes, with no tracked source snapshots, condition workspaces, run logs, result spreadsheets, or symlinks. The unstaged diff check passed; the staged baseline check reported existing Markdown hard-break whitespace and PDF-format whitespace, which were preserved. No implementation changes or experimental runs were made.
 - Push outcome: GitHub HTTPS push failed with `could not read Username for 'https://github.com': terminal prompts disabled`. The configured helper is `osxkeychain`; no usable HTTPS credentials were supplied. SSH verification found no trusted GitHub host key; no default SSH key or available agent identities were found, and `gh` is unavailable. Remote and authentication configuration were preserved.
 - Unresolved: the repository owner must authenticate GitHub before the first push can finish. No new scientific decisions were made; researcher scoring remains separate from publication.
+
+
+### 2026-10-05T18:59:33+06:00 — Follow-up GitHub authentication diagnosis
+
+- Task: investigate the owner's reported `Invalid username or token` HTTPS push failure.
+- Files created: none. Files modified: this worklog only.
+- Checks: `git status --short --branch` confirmed a clean committed `main`; credential-helper inspection confirmed `osxkeychain`; GitHub CLI remains unavailable. Consulted official GitHub personal-access-token documentation. No stored credential values were read or printed.
+- Findings: GitHub rejected the submitted credential; the error does not distinguish an account password from an invalid, expired, or insufficiently authorized token. Prepared instructions to create a repository-scoped fine-grained token with Contents read/write and use a one-command empty credential helper to bypass potentially stale Keychain credentials without changing persistent configuration.
+- Unresolved: owner authentication is required before pushing; no additional push attempted without valid authentication. Research data and scientific decisions unchanged.
