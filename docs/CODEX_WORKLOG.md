@@ -366,3 +366,48 @@
 - Content: distinguished executed/normalized pilot from pending human scientific evaluation; documented condition/rubric/attempt review, scoring, annotated demonstration and audit; proposed additional scenarios, stronger second model, preplanned repetitions, evaluator reliability and quantitative analysis as separately authorized future work.
 - Validation: local documentation-link checks and `git diff --check`; no code tests needed. No source, raw logs, condition files, prompts, configurations, scores or figures changed; no model requests, new runs, trace selection or final audit performed.
 - Remaining decisions: human condition interpretation, scoring definitions/applicability, attempt inclusion and scientific scores; future model/scenario/repetition/resource and analysis choices.
+## 2026-10-18T08:05:13+06:00 — RepoPairBench records 76–100 preparation
+
+- Task: extended the validated 51–75 snapshot workflow for the researcher-requested
+  records 76–100.
+- Files created: `scripts/acquire_snapshot_archives.py`,
+  `docs/batch_076_100_preparation.md`.
+- Files reused from the completed 51–75 branch: `scripts/prepare_snapshot_batch.py`,
+  `scripts/build_snapshot_conditions.py`, and their tests.
+- Commands/tests executed: branch inspection; dataset schema fetch; no source
+  archives or model runs were executed because the local checkout initially had
+  no `private/` dataset/archive inputs.
+- Important findings: E1/E2 must use the vulnerable parent snapshot with the
+  target file present; E3 must use the same source bytes and omit only the
+  target file in addition to approved common exclusions.
+- Unresolved issues: download the 76–100 archives, review exclusions, generate
+  the condition plan, build conditions, and run leakage checks.
+- Researcher decisions still required: validate E1 sufficiency, E2 retrieval,
+  E3 unavailability, and any common exclusions for each record.
+
+## 2026-10-18T08:05:13+06:00 — RepoPairBench records 76–100 built
+
+- Task: acquired, extracted, filtered, and built all 25 requested record pairs
+  (JSONL lines 76–100).
+- Files created: `scripts/create_snapshot_condition_plan.py`,
+  `tests/test_acquire_snapshot_archives.py`; generated researcher-only inputs
+  and outputs under `private/batch_076_100/`; generated conditions under
+  `pilot/conditions/batch_076_100/`.
+- Files modified: `docs/batch_076_100_preparation.md`,
+  `docs/CODEX_WORKLOG.md`, plus Windows-portable temporary-directory fixes in
+  the imported snapshot tests.
+- Commands/tests executed: archive acquisition (25 records, 50 archives);
+  vulnerable/fixed extraction (25/25 prepared, 50/50 target matches);
+  condition build; 50 leakage audits (50 clean); targeted snapshot tests
+  (17 passed); Python byte-compilation passed.
+- Important findings: every E1_E2 condition has the target file; every E3
+  condition omits that target; E1_E2 and E3 differ by exactly one target file
+  after common mechanical exclusions. Large files, patch/diff artifacts and
+  forbidden marker files were excluded mechanically and recorded in the
+  researcher-only plan.
+- Unresolved issues: the complete historical suite still has one
+  platform-specific pre-existing failure in `tests/test_qwen_isolation.py`
+  because it uses POSIX `/condition`, `/runtime`, and `/node` paths on Windows.
+- Researcher decisions still required: review each plan exclusion and validate
+  E1 sufficiency, E2 retrievability, E3 unavailability, and scientific
+  comparability. No model runs were launched.
